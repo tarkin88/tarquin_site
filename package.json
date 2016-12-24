@@ -1,7 +1,7 @@
 {
-  "name": "taco-app",
+  "name": "tarquin-site",
   "version": "1.0.0",
-  "description": "Web app para una taqueria",
+  "description": "SPA tarkin site",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --content-base app --hot"
@@ -16,8 +16,10 @@
     "file-loader": "^0.9.0",
     "jshint": "^2.9.4",
     "jshint-loader": "^0.8.3",
+    "json-loader": "^0.5.4",
     "ng-annotate-loader": "^0.2.0",
     "node-sass": "^4.1.1",
+    "raw-loader": "^0.5.1",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0",

@@ -1,14 +1,17 @@
 /*  jshint browser true */
 'use strict'
 
-let angular = require('angular')
 require('./vendor')()
 
+const appModule = require('../index')
+if (MODE.production) {
+  // jshint ignore:line
+  require('./config/production')(appModule)
+}
 
-let appModule = require('../index')
-
-angular.element(document).ready(function () {
+angular.element(document).ready(() => {
   angular.bootstrap(document, [appModule.name], {
-    //  strictDi: true
-  })
+      // strictDi: true
+  }
+  )
 })
