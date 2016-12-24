@@ -1,6 +1,9 @@
 {
   "esnext": true,
+  "camelcase" : true,
   "node": true,
+  "asi" : true,
+  "boss": true,
   "globals": {
     "angular": true,
     "console": true

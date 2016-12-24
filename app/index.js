@@ -1,1 +1,3 @@
-module.exports = angular.module('app', [])
+module.exports = angular.module('app', [
+  'lumx'
+])
