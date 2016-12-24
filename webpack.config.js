@@ -2,7 +2,7 @@
 
 const webpack = require('webpack')
 const path = require('path')
-const APP = path.join(__dirname, 'app')
+const APP = path.join(__dirname, '/app')
 
 module.exports = {
   context: APP,

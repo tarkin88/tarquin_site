@@ -8,7 +8,7 @@ module.exports = () => {
   require('./nav.scss')
   return {
     controller: NavCtrl,
-    controllerAs: 'vm',
+    controllerAs: 'nav',
     template: require('./nav.html')
   }
 }

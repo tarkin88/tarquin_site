@@ -1,4 +1,5 @@
 'use strict'
 
 module.exports = angular.module('app.layout', [])
-.directive('lumxNavbar', require('./nav/nav'))
+.directive('lumxNavbar', require('./layouts/nav/nav'))
+.directive('content', require('./layouts/content/content'))
